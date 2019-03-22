@@ -142,6 +142,10 @@ Hit ctrl + x to save and quit again.
 
 (To see if this works, you can try setting it for a time a few minutes from now and then check if it tweeted properly.)
 
+If it didn't work, you may need to change your crontab line to:
+
+`17 10 * * * /usr/bin/python /home/pi/grow_slow.py`
+
 ###Optional but recommended: set a reboot
 
 Sometimes, things can get messed up if your Pi is just constantly running forever. Also, some USB cameras have weird compatibility issues that are solved with a simple reboot. I recommend that you add another simple script that reboots your Pi once a day before your script runs so that things are always fresh, as they say.
