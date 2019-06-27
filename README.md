@@ -1,6 +1,6 @@
 # @grow_slow
 
-![](http://nicole.pizza/img/grow_slow-11days.gif)
+![](/grow.gif)
 
 This is a guide to making your own version of [@grow_slow](http://twitter.com/grow_slow), which tweets a photo of a plant once a day. Of course, you can use this to do whatever you want — **these instructions will cover the technical aspects of using a Raspberry Pi to take a photo with a webcam and tweet it once a day**. This is written to be understandable for people who might not have a lot of experience with coding, or with Raspberry Pi. You can read more about [@grow_slow](http://twitter.com/grow_slow) [here](http://nicole.pizza/grow_slow).
 
@@ -79,9 +79,9 @@ sudo pip install twython
 
 ## 5. Making the Python script
 
-Now we are going to write the script that will actually run once a day and tweet our photo. It's the one in this repository called [grow_slow.py](https://github.com/nicolehe/grow_slow/blob/master/grow_slow.py)
+Now we are going to write the script that will actually run once a day and tweet our photo. It's the one in this repository called [grow_slow.py](/grow_slow.py)
 
-Probably the easiest way to do that is to copy that script, and paste it into a file on your own Pi. Go to [raw script URL](https://raw.githubusercontent.com/nicolehe/grow_slow/master/grow_slow.py), and copy it.
+Probably the easiest way to do that is to copy that script, and paste it into a file on your own Pi. Go to [raw script URL](https://raw.githubusercontent.com/DigInitiatives/grow_slow/master/grow_slow.py), and copy it.
 
 Then, in Terminal, make your own file called "grow_slow.py":
 
